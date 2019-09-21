@@ -212,9 +212,9 @@ public interface Guild extends ISnowflake
      *     <li>COMMERCE - Guild can sell software through a store channel</li>
      *     <li>DISCOVERABLE - Guild shows up in discovery tab</li>
      *     <li>INVITE_SPLASH - Guild has custom invite splash. See {@link #getSplashId()} and {@link #getSplashUrl()}</li>
-     *     <li>LURKABLE - Guild allows users to lurk</li>
+     *     <li>PUBLIC - Guild allows users to lurk the server</li>
      *     <li>MORE_EMOJI - Guild is able to use more than 50 emoji</li>
-     *     <li>NEWS - Guild can create news channels</li>
+     *     <li>NEWS - Guild can create announcement channels</li>
      *     <li>PARTNERED - Guild is "partnered"</li>
      *     <li>VANITY_URL - Guild a vanity URL (custom invite link). See {@link #getVanityUrl()}</li>
      *     <li>VERIFIED - Guild is "verified"</li>
